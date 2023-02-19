@@ -1,0 +1,36 @@
+{
+    "name": "my-vue3-ui-library",
+    "version": "1.0.0",
+    "description": "My custom Vue 3 UI library",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/my-username/my-vue3-ui-library.git"
+    },
+    "keywords": [
+      "vue3",
+      "ui",
+      "component",
+      "library",
+      "typescript",
+      "less"
+    ],
+    "author": "My Name <myemail@example.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/my-username/my-vue3-ui-library/issues"
+    },
+    "homepage": "https://github.com/my-username/my-vue3-ui-library#readme",
+    "dependencies": {
+      "vue": "^3.2.30"
+    },
+    "devDependencies": {
+      "@types/node": "^16.11.15",
+      "@vue/compiler-sfc": "^3.2.30",
+      "less": "^4.1.2",
+      "typescript": "^4.5.5",
+      "vite": "^2.6.12"
+    }
+  }
+  
