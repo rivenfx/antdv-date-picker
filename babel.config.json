@@ -1,0 +1,40 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ],
+    [
+      "@babel/preset-typescript",
+      {
+        "isTSX": true,
+        "jsxPragma": "React",
+        "allExtensions": true
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "current"
+            }
+          }
+        ],
+        [
+          "@babel/preset-typescript",
+          {
+            "isTSX": true,
+            "jsxPragma": "Gct",
+            "allExtensions": true
+          }
+        ]
+      ]
+    }
+  }
+}
